@@ -17,16 +17,12 @@ const Hero = () => {
         </div>
         
         <div className="relative animate-slide-in-right" style={{animationDelay: '400ms'}}>
-          <div className="bg-primary-blue/20 rounded-3xl p-8 lg:p-12 hover:scale-105 transition-transform duration-500">
-            <div className="bg-light-gray rounded-2xl p-6 shadow-lg hover:shadow-xl transition-shadow duration-300">
-              <div className="text-center">
-                <div className="w-24 h-24 bg-primary-blue rounded-full mx-auto mb-4 flex items-center justify-center hover:rotate-12 transition-transform duration-300">
-                  <span className="text-2xl animate-bounce">🎟️</span>
-                </div>
-                <h3 className="text-xl font-semibold text-text-white mb-2">Easy Booking</h3>
-                <p className="text-gray-300">Book tickets in just a few clicks</p>
-              </div>
-            </div>
+          <div className="rounded-3xl overflow-hidden hover:scale-105 transition-transform duration-500 shadow-lg hover:shadow-xl">
+            <img
+              src="https://images.unsplash.com/photo-1511578314322-379afb476865?w=600&h=400&fit=crop"
+              alt="Event booking illustration"
+              className="w-full h-full object-cover"
+            />
           </div>
         </div>
       </div>
